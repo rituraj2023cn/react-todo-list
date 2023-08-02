@@ -1,0 +1,48 @@
+.Home {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.Todo {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 3px burlywood;
+    background-color: #f9f9f9;
+    row-gap: 5px;
+}
+
+.Todo :nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+.Status {
+    display: flex;
+    gap: 5%;
+    font-size: 1.5rem;
+}
+
+.edit,
+.delete {
+    width: 20px;
+    height: 80%;
+}
+
+.button {
+    background-color: transparent;
+}
+
+.Completed {
+    text-decoration: line-through;
+}
+
+.NotCompleted {
+    text-decoration: none;
+}
+
+.Controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+}
